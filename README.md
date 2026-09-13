@@ -1,21 +1,25 @@
 # Ruta Julio — programación, automatización e integración
 
-Curso web personalizado, mobile-first y sin dependencias.
+Curso web personalizado, mobile-first y sin dependencias de build.
 
 ## Abrir
 
-Una vez habilitado GitHub Pages con **GitHub Actions**, el sitio queda disponible en:
+GitHub Pages:
 
 `https://celaya51.github.io/cursillo/`
 
 ## Características
 
-- Diagnóstico inicial.
-- 13 módulos de aprendizaje.
-- Progreso guardado localmente en el navegador.
-- Repaso activo.
-- Temporizador de foco.
-- Tamaño de texto, espaciado y tema ajustables.
+- Interfaz tipo Metro / Windows Phone, cuadrada y táctil.
+- Diagnóstico inicial que cambia el orden recomendado de estudio.
+- 13 módulos de aprendizaje con ruta adaptativa.
+- Recomendación automática del siguiente módulo.
+- Ayuda escalonada: intento propio → pista → documentación / IA.
+- Repaso activo; los temas marcados como difíciles suben de prioridad.
+- Temporizador de foco y tres modos de trabajo con IA.
+- Lectura en voz alta de modelos mentales cuando el navegador la soporta.
+- Tamaño de texto, espaciado, modo enfoque y tema oscuro.
+- Progreso guardado localmente y exportación/importación JSON para moverlo entre dispositivos.
 - Diseño responsive para teléfono, tableta y escritorio.
 
-El sitio es un único `index.html`, por lo que no necesita build, Node ni servidor.
+No requiere Node, backend ni base de datos. `index.html`, `styles.css`, `content.js` y `app.js` se sirven directamente con GitHub Pages.
